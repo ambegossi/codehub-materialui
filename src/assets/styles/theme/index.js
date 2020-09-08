@@ -3,13 +3,14 @@ import { createMuiTheme } from '@material-ui/core/styles';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: '#7848F4',
-      main: '#431ba8',
-      dark: '#26115c',
+      light: '#936cf6',
+      main: '#7848F4',
+      dark: '#5432aa',
     },
     secondary: {
-      light: '#d9d9d9',
-      main: '#131315',
+      light: '#e1e4e8',
+      main: '#dadee3',
+      dark: '#989b9e',
     },
     white: {
       main: '#FFF',
@@ -20,24 +21,16 @@ const theme = createMuiTheme({
   typography: {
     fontFamily: 'Roboto, sans-serif',
     h1: {
-      fontSize: '1.5rem',
-      '@media (min-width: 992px)': {
-        fontSize: '2rem',
-      },
-      '@media (min-width: 1200px)': {
-        fontSize: '2.5rem',
-      },
+      fontSize: '3.5rem',
     },
   },
   overrides: {
     MuiButton: {
       containedPrimary: {
-        backgroundColor: '#d9d9d9',
-        color: '#7848F4',
+        color: '#FFF',
       },
       containedSecondary: {
-        backgroundColor: '#7848F4',
-        color: '#FFF',
+        color: '#7848F4',
       },
     },
   },
